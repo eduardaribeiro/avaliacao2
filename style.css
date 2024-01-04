@@ -1,0 +1,169 @@
+.imagem
+{
+    width: 350px;
+    height: 300px;
+    padding-bottom: 100px;
+   size: 20%;
+   align-self: center;
+   margin-left: 500px;
+}
+.titulo{
+    width: 100%;
+    height:100%;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.cabecalho p{
+    width: 100%;
+    height:100%;
+    font-size: 20px;
+    color: black;
+    text-align: center; 
+    margin-bottom: 50px ;
+}
+
+.cabecalho input{
+    width: 100vw;
+    height:5vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+   margin-left: 100px;
+    gap: 20px;
+
+}
+
+
+.topicos{
+    display: flex;
+    font-size: 22px;
+    width: -110px;
+    height: -10px;
+    align-items: baseline;
+    size-adjust: 20%;   
+    gap: 90px;
+    margin-bottom: 80px;
+}
+
+.caixa{ 
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    width: 50vw;
+    height: 50px;
+    gap: 20px;
+
+}
+
+.caixa button{
+    background-color: black;
+    color: white;
+    width: 20VW;
+    height: 7VH;
+}
+
+.icone1{
+width: 100px;
+height: 100px;
+align-items: center;
+
+}
+
+.topicos img{
+align-items: center;
+}
+
+.logo{
+display: flex;
+width: 130px;
+height: 90px;
+gap: 90px;
+display: inline;
+
+}
+
+.textoabaixo{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.botaoabaixo{
+    width: 15vw;
+    height: 10vh;
+  
+    color: white;
+    background-color: green;
+    margin-left: 40%;
+
+}
+
+.logoinicio{
+width: 10vw;
+height: 10vh;
+margin-left: 45%;
+
+}
+
+
+.menususpenso{
+    display: flex;
+    border-radius: 5px solid;
+    size: -50px;
+}
+
+.menususpenso img{
+    display: flex;
+    width: 5px;
+    height: 5px;
+}
+
+.body{
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------/
+.mainmenubtn {
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    width: 80vw;
+    align-self: center;
+}
+.mainmenubtn:hover {
+    background-color: aquamarine;
+    border-radius: 2px;
+    }
+.dropdown {
+    border: 5px solid blue ;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}

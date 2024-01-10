@@ -1,12 +1,47 @@
-.imagem
-{
+.menu{
+ width:90%;
+ background-color: #A57967;
+ display:flex;
+
+ 
+}
+    
+.botao{
+    background-color:#A57967;
+    color: white;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 100px;
+        border: 0px;
+        font-size: 20px;
+        
+        
+    }
+
+ .setabotao{
+    width: 10px;
+    height: 15px;
+    margin-top:30px;
+ }   
+
+.imagem{
+    margin-top: 30px;
     width: 350px;
-    height: 300px;
+    height: 350px;
     padding-bottom: 100px;
    size: 20%;
    align-self: center;
-   margin-left: 600px;
+   margin-left: 450px;
 }
+
+.logoinicio{
+    width: 5vw;
+    height: 10vh;
+    margin-left: 30px;
+    
+    }
+
+
 .seta{
  width: 40px;
  height: 50px;
@@ -15,6 +50,7 @@
 }
 
 .titulo{
+    margin-top: 50px;
     width: 100%;
     height:100%;
     font-size: 35px;
@@ -30,7 +66,6 @@
     font-size: 20px;
     color: white;
     text-align: center; 
-    margin-bottom: 50px ;
 }
 
 .cabecalho input{
@@ -53,11 +88,11 @@
     margin-top: 60px;
     color: #3A633B;
     gap: 5%;
-    margin-left: 4%;
+
 
 }
 .topicos h2{
-    text-align: center
+    text-align: center;
     
 }
 
@@ -92,22 +127,14 @@
 }
 
 .caixa button{
-    background-color: rgb(184, 94, 195);
+    background-color: #396d3a;
     color: white;
-    width: 20VW;
+    width: 25VW;
     height: 7VH;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 
-.logo{
-display: flex;
-width: 100px;
-height: 90px;
-gap: 80px;
-display: inline;
-
-}
 
 .textoabaixo{
     margin-top: 50px;
@@ -131,14 +158,6 @@ display: inline;
 
 }
 
-.logoinicio{
-width: 5vw;
-height: 10vh;
-margin-left: 50%;
-
-}
-
-
 .menususpenso{
     display: flex;
     margin-bottom: 50px;
@@ -156,14 +175,14 @@ margin-left: 50%;
     color:whitesmoke;
     margin-bottom: 30px;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 8%;
 
  }   
  .menususpenso h2{
 margin-top: 72px;
     font-size: 50px;
     color:#1e6757;
-    margin-left: 30%;
+    margin-left: 25%;
     
 
  }
@@ -175,9 +194,25 @@ margin-top: 72px;
     
 }
 
-.body{
-    color: aquamarine;
+.formulario{
+    align-self: center;
+    width: 350px;
+    height: 100px;
+    margin-left: 200px;
+    
+
+
 }
+
+.formulario h3{
+    color: #1e6757;
+}
+
+.opcoesformulario{
+    width: 300px;
+    height: 50px;
+}
+
 
 .background{
     background-color: #A57967;
@@ -185,8 +220,15 @@ margin-top: 72px;
 
 .depoimento{
     display: flex;
-    margin-top: 100px ;
+    margin-top: 60px ;
+    gap: 60px;
+    margin-left: 30px;
+    margin-bottom: 50px;
 
+}
+
+.depoimento img{
+    width: 350px;
 }
 
 
@@ -198,26 +240,56 @@ margin-top: 72px;
     text-align: center;
 }
 
+.menurodape{
+    background-color: #A57967;
+    display: flex;
+    color: #3A633B;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding-top: 30px;
+
+}
+
+.menurodape p{
+width: 100px;
+height: 25px;
+margin-left: 300px;
+font-size: 15px;
+}
+
+
+.imagembaixo {
+    display: flex;
+    width: 850px;
+    height: 250px;
+    margin-left: 15%;
+    margin-top: 25px;
+    gap: 50px;
+
+}
+
+
+
 .rodape{
     
     background-color: #3A633B;
     width: 100%;
-    margin-top: 60px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    height: 200px;
+    height: 130px;
+    
 
     
     
 }
 .rodape img{
-height: 100px;
-width: 100px;
+height: 50px;
+width: 50px;
 
 }
-
 .rodape p{
-    margin-top: 15px;
+    padding-top: 30px;
 }
 
